@@ -66,7 +66,6 @@ cd os-tracker-backend
 npm install
 npm run dev # or: node server.js
 ```
-*You should see `Server running on port 5001` and `MongoDB Connected`.*
 
 ### 3️⃣ Start the Frontend
 
