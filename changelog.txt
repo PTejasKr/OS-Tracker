@@ -1,3 +1,10 @@
+## [v0.0.3] - 2026-07-08
+### Technical Changes
+- [os-tracker-backend/.env.example:L1-29] Added environment variable configuration file with settings for MongoDB, JWT, GitHub API, server port, and CORS.
+### Workflow Changes
+- No workflow changes detected.
+### Lines Changed: +58 / -0
+
 ## [v0.0.2] - 2026-07-08
 ### Technical Changes
 - [os-tracker-frontend/src/App.jsx:L127-127] Updated the GitHub link in the App component to point to the new repository.
