@@ -127,7 +127,7 @@ function AppContent() {
             <button className="hamburger-btn" onClick={() => setIsSearchModalOpen(true)} title="Global Search">
               <Icons.Search />
             </button>
-            <a href="https://github.com/RMukherjee007/FSD-End-Term-Project" target="_blank" rel="noopener noreferrer" className="hamburger-btn" title="Source Code">
+            <a href="https://github.com/PTejasKr/OS-Tracker" target="_blank" rel="noopener noreferrer" className="hamburger-btn" title="Source Code">
               <Icons.Github />
             </a>
             <button className="hamburger-btn" onClick={toggleTheme} title="Toggle Theme">
