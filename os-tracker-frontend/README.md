@@ -42,3 +42,8 @@ You must also have the **OS Tracker Backend** server running locally on port `50
 
 ## 🎨 Design Philosophy
 The application deliberately shies away from standard flat or glassmorphic designs, opting instead for a heavy, blocky, and aggressively high-contrast styling. This mimics high-end portfolio platforms (e.g., Wix Studio, Framer) and prioritizes readability and user impact above all else.
+
+
+## Linting
+
+Run `npm run lint` to lint the frontend code.
