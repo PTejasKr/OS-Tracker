@@ -96,7 +96,6 @@ app.get('/api/health', (req, res) => {
 // Serve frontend
 app.use(express.static(path.join(__dirname, '../os-tracker-frontend/dist')));
 
-// Catch-all to serve React app for unknown routes
 app.use((req, res) => {
   res.sendFile(path.resolve(__dirname, '../os-tracker-frontend/dist', 'index.html'));
 });
