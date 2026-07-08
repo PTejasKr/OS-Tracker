@@ -1,0 +1,7 @@
+## [v1.1.1] - 2026-07-08
+### Technical Changes
+- No technical changes listed.
+### Workflow Changes
+- No workflow changes detected.
+### Lines Changed: +0 / -0
+
