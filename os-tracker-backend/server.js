@@ -34,3 +34,6 @@ app.use((req, res) => {
 // Use the dynamic port provided by the cloud host, or fallback to 5001 locally
 const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+// Healthcheck endpoint
+app.get('/health', (req, res) => res.status(200).json({ status: 'ok' }));
