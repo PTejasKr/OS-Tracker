@@ -1,3 +1,13 @@
+## [v0.0.1] - 2026-07-08
+### Technical Changes
+- [os-tracker-backend/server.js:L2-10] Added security middleware dependencies (helmet, rateLimit, mongoSanitize, hpp)
+- [os-tracker-backend/server.js:L13-64] Implemented security middleware configurations for helmet, rate limiting, CORS, mongoSanitize, HPP, and custom XSS sanitizer
+- [os-tracker-backend/server.js:L78-101] Added a health check endpoint for monitoring server status
+- [os-tracker-backend/server.js:L101-112] Implemented a global error handler for unhandled errors
+### Workflow Changes
+- No workflow changes detected.
+### Lines Changed: +79 / -3
+
 ## [v1.1.2] - 2026-07-08
 ### Technical Changes
 - No technical changes listed.
