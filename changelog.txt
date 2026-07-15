@@ -1,3 +1,13 @@
+## [v1.0.0] - 2026-07-15
+### Technical Changes
+- [os-tracker-backend/controllers/authController.js:L1-126] Updated the register function to include email and name fields, and added email verification with a token.
+- [os-tracker-backend/models/User.js:L14-29] Updated the user model to include email, name, status, emailVerificationToken, and emailVerificationExpires fields.
+- [os-tracker-backend/routes/authRoutes.js:L1-10] Updated the auth routes to include a new route for email verification.
+### Workflow Changes
+- The changes significantly impact the user registration and onboarding workflow by introducing email verification. (Workflows: User Registration & Onboarding Workflow)
+- State Transition Change: [User registers without email verification] -> [User registers with email verification and state transitions.]
+### Lines Changed: +117 / -13
+
 ## [v0.0.4] - 2026-07-10
 ### Technical Changes
 - [os-tracker-frontend/src/App.jsx:L13-14] Imported the ErrorBoundary component to handle unhandled JavaScript errors.
