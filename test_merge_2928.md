@@ -1,0 +1,1 @@
+Fixed an issue where database connections were not closed properly.
