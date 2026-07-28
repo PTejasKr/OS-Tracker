@@ -1,0 +1,1 @@
+Added user profile dashboard UI and backend routing to support it. This might impact auth flows.
